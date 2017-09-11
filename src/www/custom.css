@@ -1,0 +1,129 @@
+/* -------------------------------------------HEADER-------------------------------------------*/
+.main-header .logo {
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* ------------------------------------HIDE SIDEBAR REMOVAL------------------------------------*/
+.sidebar-toggle{
+    display: none;
+}
+/* ------------------------------------GRAPH NAVIGATION BAR------------------------------------*/
+.nav-tabs-custom{
+    display: table;
+    margin: 0 auto;
+    background-color: #2C3B41;
+}
+.nav-tabs-custom .nav-tabs {
+    text-align: center;
+    align-content: center;
+    background-color: #2C3B41;
+    border: 2px #2C3B41 solid;
+}
+
+.nav-tabs-custom .tab-content{
+    padding: 0px;
+}
+
+.nav-tabs-custom .nav-tabs li {
+    float: none;
+    display: table-cell;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    border-top: 2px #2C3B41 solid;
+    display:inline-block;
+    padding: 0;
+}
+
+.nav-tabs li:first-child {
+    border-left: none;
+}
+
+.nav-tabs li:last-child {
+    border-right: none;
+}
+
+.nav-tabs-custom .nav-tabs li.active{
+    border-top: 2px #bf1313 solid;
+    margin-top: -2px;
+}
+
+.nav-tabs-custom .nav-tabs li.active a, .nav-tabs-custom .nav-tabs li.active a:hover{
+    border: none;
+    color: white;
+    background-color: #1E282C;
+}
+
+.nav-tabs-custom .nav-tabs li{
+    border-top: none;
+    margin: 0px -2px;
+}
+
+.nav-tabs-custom .nav-tabs li a{
+    text-align: center;
+    font-size: 14px;
+    padding: 12px;
+    border: none;
+    color: #CCCCCC;
+}
+
+.nav-tabs-custom .nav-tabs li:hover a{
+    color: white;
+    background-color: #1E282C;
+}
+
+.checkbox{
+    margin: 0px;
+}
+.help-block {
+    margin: 0px;
+}
+#selectRootButton{
+    color: black;
+    width: 332px;
+    position: relative;
+    left: -2px;
+    top: 4px;
+    border-radius: 4px;
+}
+/* --------------------------------ABSOLUTE BUTTON POSITIONING---------------------------------*/
+
+#uploadInput{
+    color: black;
+    width: 164px;
+    position: absolute;
+    bottom: 84px;
+    left: 4px;
+}
+#runMasterBatch{
+    color: black;
+    width: 164px;
+    position: absolute;
+    bottom: 84px;
+    left: 172px;
+}
+#saveFilePath{
+    color: black;
+    width: 332px;
+    position: absolute;
+    bottom: 46px;
+    left: 4px;
+    border-radius: 4px;
+}
+#saveButton{
+    color: black;
+    position: absolute;
+    bottom: 8px;
+    left: 4px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#busyIndicator{
+    color: white;
+    float: left;
+}
+/* ---------------------------------------MISCELLANEOUS----------------------------------------*/
+.form-group {
+    margin-bottom: 0px;
+}

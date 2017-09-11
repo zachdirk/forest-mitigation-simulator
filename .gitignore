@@ -1,0 +1,13 @@
+*.log
+*.db
+*.Rhistory
+*.Rapp.history
+*.Rdata
+*.Rproj.user/
+.vscode
+*.bat
+*.txt
+100MH
+01_GCBM_qaqc.R
+dump.csv
+data/spatial

@@ -1,0 +1,4 @@
+# this ignores everything in the directory except itself, to preserve file structure but not pass around the configs
+*
+*/
+!.gitignore
